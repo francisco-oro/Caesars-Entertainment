@@ -1,0 +1,279 @@
+﻿/* Big tablets to smaller laptop sceens*/
+@media only screen and (max-width:1200px) {
+    html,
+    body {
+        font-size: 16px;
+    }
+
+    .about-para {
+        margin-bottom: 20px;
+    }
+
+    .section-heading, 
+    .about-heading,
+    .testimonial-heading,
+    .featured-heading,
+    .contact-heading{
+        margin-top: 90px;
+    }
+
+    .big-icon {
+        margin-bottom: 15px; 
+    }
+
+    .region-set {
+        font-size: 10px; 
+    }
+}
+/* Smaller tablets to larger tablet screens */
+@media only screen and (max-width: 1024px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    .logo{
+        height: 75px; 
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .about-box:first-child {
+        text-align: left;
+        padding: 0;
+        padding-left: 5%;
+    }
+
+    .magician-image {
+        padding-top: 10%; 
+        padding-right: 5%;
+        border-radius: 10px; 
+    }
+
+    .about-box {
+        margin-top: 0;
+    }
+
+    .featured-box {
+        width: 100%;
+    }
+
+    footer {
+        padding: 30px;
+        margin-top: 20px;
+    }
+
+    blockquote {
+        height: 12vh;
+    }
+
+    .service-box{
+        text-align: center; 
+        padding: 0 2%;  
+    }
+
+    .service-heading{
+        margin-bottom: 10px; 
+        height: 5vh;
+    }
+
+    .service-para {
+        height: 8vh;
+        width: 100%;
+        padding: 0; 
+        text-align: center; 
+    }
+    .about-box {
+        margin-top: 25px;
+    }
+
+    .about-heading {
+        margin-bottom: 25px;
+    }
+
+    .about-para {
+        margin-bottom: 30px; 
+    }
+    .button-ghost:link,
+    .button-ghost:visited {
+        padding: 10px 10%;
+        border-radius: 15px;
+    }
+
+    .place-image{
+        border-radius: 20px; 
+    }
+}
+/* Larger phones to smaller tablets */
+@media only screen and (max-width: 768px)  {
+    html,
+    body {
+        font-size: 10px;
+    }
+    
+    .about-heading {
+        margin-bottom: 20px; 
+    }
+
+    .section-heading,
+    .about-heading,
+    .testimonial-heading,
+    .featured-heading,
+    .contact-heading {
+        margin-top: 50px;
+    }
+
+    .section-heading {
+        margin-bottom: 10px; 
+    }
+
+    .section-subheading:after {
+        margin: 15px  auto 0 auto; 
+    }
+
+    .header-box-text{
+        margin-bottom: 50px; 
+    }
+
+    .magician-image{
+        margin: 0 auto; 
+    }
+    .service-box {
+        font-size: 13px; 
+    }
+    .service-para{
+        height: 8vh; 
+        margin-bottom: 10%; 
+    }
+
+    .services-set{
+        padding-left: 8%;
+    }
+
+    .big-icon{
+        margin-top: 10%; 
+    }
+
+    .featured-box{
+        font-size: 13px; 
+    }
+
+    .span_1_of_4 {
+        width: 45%; 
+    }
+
+    .region {
+        zoom: 1; 
+    }
+
+    .button-ghost:link,
+    .button-ghost:visited{
+        padding: 10px 20%;
+        border-radius: 15px; 
+    }
+
+
+
+    /*
+    #region-clearfix{
+        transform: translate(-100%, 0); 
+        display: block; 
+    } 
+        */
+}
+
+/* Smaller to larger mobile phones */
+@media only screen and (max-width: 480px)  {
+    .magician-image{
+        padding: 0;
+        margin:0 auto; 
+    }
+
+    .about-box:last-child {
+        text-align:center;
+    }
+
+    .about-box:first-child {
+        text-align: center; 
+        padding: 0; 
+    }
+
+    .service-para{
+        height: auto; 
+        margin: 20px auto; 
+        padding: 16px 0;
+        height: 120px; 
+    }
+    blockquote{
+        height: auto; 
+    }
+
+    .testimonial-image{
+            width: 20%; 
+    }
+
+    .service-box{
+        margin-bottom: 40px; 
+    }
+
+    .services-set{
+        padding-left: 3%; 
+    }
+
+    .span_1_of_3 {
+        padding:0 10%;
+        margin-bottom: 5px; 
+    }
+
+    .contact-form {
+        width: 100%; 
+    }
+
+    .contact-label {
+        padding: 0; 
+    }
+
+    .footer-nav,
+    .social-links{
+        float: none; 
+        text-align: center; 
+        margin-bottom: 10px;
+    }
+
+    .work-portfolio li{
+        width: 50%; 
+    }
+
+    .logo{
+        height: 30px;
+        border-radius: 4px; 
+    }
+
+    .main-nav{
+        font-size: 90%; 
+    }
+
+    .button-ghost:link,
+    .button-ghost:visited{
+        padding: 10px 7%; 
+    }
+
+    .service-box{
+        padding:0 0 0 20px;
+    }
+
+    .main-nav li a{
+        margin-right: 20px; 
+    }
+
+    .place-image{
+        border-radius: 10px; 
+        width: 90%; 
+    }
+
+    .service-para{
+        height: 16vh; 
+    }
+}
